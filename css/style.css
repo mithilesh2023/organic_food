@@ -128,9 +128,7 @@ button:hover{
 ::-webkit-scrollbar-track{
     background: var(--white);
 }
-::-webkit-scrollbar-track{
-    background: var(--white);
-}
+
 ::-webkit-scrollbar-thumb{
     background: var(--secondary-color);
 }
@@ -153,7 +151,6 @@ button:hover{
     color: var(--secondary-color);
     border:0.2rem solid var(--secondary-color);
 }
-
 section{
     padding: 5rem 0;
 }
@@ -587,6 +584,23 @@ section{
     margin-bottom: 0;
     font-family: var(--secondary-font);
 }
+/* single_page  start*/
+.product-details .del{
+    color: red;
+    text-decoration: line-through;
+}
+.product-details .form-select{
+    width: 7rem;
+}
+
+/* single_page  end*/
+
+/* modal start */
+.modal .modal-header{
+    font-size: 1.8rem;
+    background-color: var(--secondary-color);
+}
+/* modal end */
 
 
 

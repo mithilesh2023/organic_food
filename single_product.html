@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>organic food</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- LightBox pupup -->
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <!--   Bootstrap 5 CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!--  style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="single_product">
+    <!--  Navbar section start -->
+    <header id="full_nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <img src="images/logo.png" alt="">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html">Product</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="header_right">
+                                <div class="text-lg-end">
+                                    <a href="cart.html" class="position-relative py-3 px-2">
+                                        <i class="fas fa-shopping-cart fs-1 text-white"></i>
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger text-white">
+                                          0
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--  Navbar section end-->
+
+    <section class="product_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="section-title">Order Our Best Product</h2>
+                </div>
+            </div>
+            <div class="row align-items-center py-5">
+                <div class="col-xl-5 col-lg-6 col-12 mb-5">
+                    <div class="card border-0 me-lg-5">
+                        <img src="./images/products/fresh-fruits1.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-6 col-12 mb-5">
+                    <div class="product-content">
+                        <div class="product-details">
+                            <h2>Makki Ka Atta</h2>
+                            <div class="d-flex gap-4">
+                                <p>₹48</p>
+                                <p class="del">₹60</p>
+                            </div>
+                            <h4>Available In</h4>
+                            <select class="form-select form-select-lg mb-3 mt-2 fs-2">
+                                <option selected>0</option>
+                                <option value="1">1 kg</option>
+                                <option value="2">5 kg</option>
+                                <option value="3">10 kg</option>
+                            </select>
+
+                            <div class="btn-group btn-group-lg me-3" role="group">
+                                <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                            </div>
+                            <a type="button" href="cart.html" class="btn main-btn my-1"> ADD TO CART</a>
+                            <div>
+                            </div>
+                            <div class="mt-3">
+                                <h4>Product Details</h4>
+                                <p>Rajdhani Makki Ka Atta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related product start -->
+    <section class="landing_product_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="section-title">Related Product</h2>
+                    <div class="row mx-0">
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Related product end -->
+    <!-- New Released Product Start -->
+    <section class="landing_product_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center pb-5">
+                    <h2 class="section-title">New Released Product</h2>
+                    <div class="row mx-0">
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>1000g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 mb-5">
+                            <div class="card product-card">
+                                <div class="product-img">
+                                    <img src="./images/products/product-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Musk Melon</h3>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <p>500g</p>
+                                    <span>$70 KG</span>
+                                    <p>$50KG</p>
+                                </div>
+                                <div>
+                                    <p><i class="fas fa-motorcycle"></i> Express Delivery : in 90 minutes</p>
+                                </div>
+                                <div class="btn-group btn-group-lg justify-content-center mx-2" role="group">
+                                    <button type="button" class="btn btn-outline-primary fs-1 px-4 py-0">-</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">0</button>
+                                    <button type="button" class="btn btn-outline-primary fs-1  px-4 py-0">+</button>
+                                    <a type="button" href="cart.html"  class="btn btn-danger fs-2  px-4"> ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- New Released Product end -->
+
+    <!--  footer section start-->
+    <section class="footer_wrapper mt-3 mb-md-0">
+        <div class="container px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-lg-0">
+                    <h5>Tazza</h5>
+                    <p class="mb-4 ps-0 company_details">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores, ea...</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i>No. 96 , South City, London</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3">info@example.com</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Customer Support</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Product Returns</a></li>
+                        <li><a href="#">Wholesale Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Quick Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Product Returns</a></li>
+                        <li><a href="#">Wholesale Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-lg-0">
+                    <h5>Newsletter</h5>
+                    <div class="form-group- mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter Your Email Here">
+                        <button type="submit" class="btn main-btn">Subscribe</button>
+                    </div>
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#">&#169; 2024</a> All Rights Reserved</p>
+        </div>
+    </section>
+    <!--  footer section end-->
+
+
+    <!-- Bootstrap 5 Bundle  CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--  lightbox Pupup -->
+    <script src="js/lightbox-plus-jquery.js"></script>
+
+    <!--  Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
